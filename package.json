@@ -14,7 +14,8 @@
   "keywords": [
     "primer",
     "archivo",
-    "hoteles"
+    "hoteles",
+    "bootstrap"
   ],
   "author": "carlos camacho",
   "license": "ISC",
@@ -24,5 +25,10 @@
   "homepage": "https://github.com/carlosx32/fullstackcourse#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
