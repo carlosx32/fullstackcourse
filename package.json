@@ -1,0 +1,24 @@
+{
+  "name": "hoteles",
+  "version": "1.0.0",
+  "description": "proyecto guia de hoteles",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosx32/fullstackcourse.git"
+  },
+  "keywords": [
+    "primer",
+    "archivo",
+    "hoteles"
+  ],
+  "author": "carlos camacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosx32/fullstackcourse/issues"
+  },
+  "homepage": "https://github.com/carlosx32/fullstackcourse#readme"
+}
