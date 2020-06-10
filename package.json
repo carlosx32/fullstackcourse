@@ -4,7 +4,8 @@
   "description": "proyecto guia de hoteles",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/carlosx32/fullstackcourse/issues"
   },
-  "homepage": "https://github.com/carlosx32/fullstackcourse#readme"
+  "homepage": "https://github.com/carlosx32/fullstackcourse#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
