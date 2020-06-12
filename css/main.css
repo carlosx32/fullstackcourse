@@ -1,0 +1,21 @@
+footer a{
+    color:#d6d6d6;
+}
+.jumbotron{
+    background-color: rgb(8, 112, 8);
+    color:withe;
+}
+.jumbotron h1{
+    color:white;
+}
+.card-hotel{
+    background-color: #f1f1f1;
+    padding:0em;
+    border-radius: 3vw solid;
+    width: 30%;
+    margin: 1.5%;
+    min-width: 250px;
+}
+footer .row{
+    padding: 3vw 0;
+}
