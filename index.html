@@ -7,18 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
 
     <title>Guia de hoteles</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a href="/" class="navbar-brand">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="contenido1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="/index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/static_pages/Nosotros.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item "><a href="/static_pages/Precios.html" class="nav-link">Precios</a></li>
+                <li class="nav-item "><a href="/static_pages/Terminos.html" class="nav-link">Terminos</a></li>
+                <li class="nav-item "><a href="/static_pages/Contacto.html" class="nav-link">Contacto</a></li>
+            </ul>            
+        </div>    
+    </nav>
 
     <div class="jumbotron">
         <h1 class="text-center">Hoteles</h1>
     </div>
     <div class="container">
+        <nav class="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+    
         <div class="d-flex">
             <div class="col-md-4">
                 <h3>¿como funciona?</h3>
@@ -148,9 +169,9 @@
 
     </footer>
 
-    <script src="node_modules/jquery/dist/jquery.slim.js"> </script>
-    <script src="node_modules/popper.js/dist/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.slim.js"> </script>
+    <script src="/node_modules/popper.js/dist/popper.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 
 </body>
