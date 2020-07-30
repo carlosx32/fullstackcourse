@@ -8,7 +8,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
 
     <title>Guia de hoteles</title>
@@ -17,39 +16,89 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a href="/" class="navbar-brand">Hoteles</a>
+        <a href="/" class="navbar-brand">Contacto</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido1">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="contenido1">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="/static_pages/Nosotros.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item "><a href="/static_pages/Nosotros.html" class="nav-link">Nosotros</a></li>
                  <li class="nav-item "><a href="/static_pages/Precios.html" class="nav-link">Precios</a></li>
                 <li class="nav-item "><a href="/static_pages/Terminos.html" class="nav-link">Terminos</a></li>
-                <li class="nav-item "><a href="/static_pages/Contacto.html" class="nav-link">Contacto</a></li>
+                <li class="nav-item active"><a href="/static_pages/Contacto.html" class="nav-link">Contacto</a></li>
             </ul>            
         </div>    
     </nav>
 
     <div class="jumbotron">
-        <h1 class="text-center">Nosotros</h1>
+        <h1 class="text-center">Contatenos</h1>
     </div>
 
     <div class="container">
         <nav class="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item a" aria-current="page"><a href="/">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Nosotros </li>
+                <li class="breadcrumb-item " aria-current="page"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
     
             </ol>
         </nav>
-    
-    
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur facere consequatur excepturi exercitationem! Repellat perspiciatis ratione ipsum beatae nam aperiam accusamus laborum minus eveniet aliquam, quo aspernatur quaerat enim?
-    
+
+        <form>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre"> 
+                </div>
+
+                <div class="form-group col-sm-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido"> 
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group ">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Ingrese su email"> 
+                </div>
+            </div>
+            
+            <div class="form-row">
+
+                <div class="form-group col-sm-6">
+                    <label for="Direccion">Direccion</label>
+                    <input type="text" class="form-control" id="Direccion" placeholder="Ingrese su Direccion"> 
+                </div>
+
+                <div class="form-group col-sm-6">
+                    <label for="ciudad">Ciudad</label>
+                    <select class="form-control" name="ciudad" id="ciudad">
+                        <option selected>Bogotá</option>
+                        <option>Medellin</option>
+                        <option>Cali</option>
+                        <option>Boyaca</option>
+                    </select>
+                </div>
+                </div>
+                <div class="form-group form-row">
+                    <label for="comentario">Comentario</label>
+                    <textarea name="" rows="5" id="comentario" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <input class="form-check-input" type="checkbox" id="check1"></input>
+                    <label class="form-check-label"> Quiero que me contacten</label>
+                    
+                </div>
+                <button class="btn btn-primary mb-4 mt-1">enviar</button>
+ 
+
+            </div>
+        </form>
+
     
     </div>
+
+
 
     <footer class="bg-dark">
         <div class="container text-white ">

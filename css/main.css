@@ -20,3 +20,10 @@ footer a{
 footer .row{
     padding: 3vw 0;
 }
+.oi{
+    padding-right: 5px;
+}
+.btn-reserva{
+    margin-bottom: 10px;
+    background-color: rgb(8, 112, 8);;
+}
